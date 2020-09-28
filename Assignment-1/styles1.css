@@ -1,13 +1,14 @@
 form {
     border: 3px solid #f1f1f1;
   }
-  .container1
+  @media (max-width:882px)
   {
-      width: 35%;
-      margin-top: 10%;
-      margin-left: 35%;
+  .container1
+  { 
+      width:35%;
+      margin : auto;
   }
-
+  }
   input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
